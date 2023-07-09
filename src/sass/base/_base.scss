@@ -1,0 +1,60 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  @include font($size: 18px, $height: 30px, $weight: 400)
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+p {
+  padding: 0;
+  margin: 0;
+}
+ 
+h1 {
+  font-family: 'Poppins', serif;
+  @include font($size: 72px, $height: 78px, $weight: 600);
+}
+
+h2 {
+  font-family: 'Poppins', serif;
+  @include font($size: 48px, $height: 78px, $weight: 500);
+}
+
+h3 {
+  @include font($size: 78px, $height: 65px, $weight: 500);
+}
+
+h4 {
+  font-family: 'Poppins', serif;
+  @include font($size: 20px, $height: 28px, $weight: 600);
+  color: $color-font-secondary;
+}
+
+
