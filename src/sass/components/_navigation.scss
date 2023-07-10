@@ -1,1 +1,7 @@
-
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 650px;
+  @include font($size: 16px,$weight: 600);
+  padding-bottom: 6px;
+}

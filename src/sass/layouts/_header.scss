@@ -1,1 +1,34 @@
+.container {
+  max-width: 1500px;
+  padding: 0 50px;
+  margin: 0 auto;
+}
 
+.header {
+  padding: 34px 0 0 0px;
+
+  &__container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  &__logo-line {
+    margin-right: 384px;
+  }
+
+  &__navigation {
+    margin-right: 64px;
+  }
+
+  &__button {
+
+    >button {
+      background-color: $color-secondary;
+      color: $color-light;
+      width: 97px;
+      height: 32px;
+
+    }
+  }
+}
