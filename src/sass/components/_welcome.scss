@@ -1,6 +1,7 @@
 .welcome {
-   padding: 107px 0px 0 0px;
+   padding: 100px 0px 100px;
    position: relative;
+   height: 735px;
 
    &__container {
     display: flex;
@@ -33,12 +34,6 @@
       padding-bottom: 46px;
    }
 
-   
-
-   &__right-column {
-
-   }
-
    &__img-container {
       position: relative;
    }
@@ -62,7 +57,7 @@
 
    &__background-dots {
       position: absolute;
-      bottom: 0;
+      bottom: -50px;
       left: 0;
    }
 }

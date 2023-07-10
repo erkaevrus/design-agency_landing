@@ -1,0 +1,56 @@
+.service {
+  padding: 100px 0 230px 0;
+  position: relative;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    padding-bottom: 50px;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 35px;
+  }
+
+  &__card {
+    position: relative;
+    padding: 30px 20px 35px 95px;
+    border-radius: 60px 0px;
+    background: #FFF;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.14);
+  }
+
+  &__img {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+  }
+
+  &__card-title {
+    @include font($size: 24px, $weight: 700);
+    padding-bottom: 15px;
+  }
+
+  &__text {
+    color: $color-font-secondary;
+  }
+
+  &__card_color {
+    background: $color-secondary;
+
+    >.service__card-title, .service__text {
+      color: $color-light;
+    }
+  }
+
+  &__background-dots {
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+  }
+}

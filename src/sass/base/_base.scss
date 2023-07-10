@@ -50,9 +50,7 @@ h2 {
   @include font($size: 48px, $height: 78px, $weight: 500);
 }
 
-h3 {
-  @include font($size: 78px, $height: 65px, $weight: 500);
-}
+
 
 h4 {
   font-family: 'Poppins', serif;
