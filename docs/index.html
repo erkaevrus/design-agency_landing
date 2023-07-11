@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="src/assets/images/favicon..ico" type="image/x-icon">
   <title>Decbase</title>
 <script defer src="index.js"></script></head>
 <body>
@@ -55,6 +56,21 @@
         <h4 class="service__subtitle">WHAT WE DO</h4>
         <h2 class="service__title">Our Service</h2>
         <div class="service__content">
+          <div class="service__buttons">
+            <div class="switcher">
+              <button class="switcher__prev">
+                <svg class="switcher__arrow-left" width="7" height="12">
+                  <use xlink:href="#arrow-left"></use>
+                </svg>
+              </button>
+              <button class="switcher__next">
+                <svg class="switcher__arrow-right" width="7" height="12">
+                  <use xlink:href="#arrow-right"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+          
           <div class="service__card">
             <img class="service__img" src="./image/interior.png" alt="icon">
             <p class="service__card-title">Interior Design</p>
@@ -81,7 +97,6 @@
           <use xlink:href="#dots"></use>
         </svg>
       </div>
-     
     </section>
 
     <section class="about">
@@ -134,37 +149,195 @@
       </div>
     </section>
 
-    <section class="sucсesses">
-      <div class="container sucсesses__container">
-        <h2 class="sucсesses__title">3000+ Completed Work
+    <section class="done">
+      <div class="container done__container">
+        <h2 class="done__title">3000+ Completed Work
           Which WE have Successfully Done</h2>
-        <div class="successes__content">
-          <h2>dfhfj</h2>
-          <h2>dfhfj</h2>
+        <div class="done__content">
 
-          <!-- <div class="successes__item">
-            <p class="sucсesses__digit">980</p>
-            <p class="successes__subtitle">Project</p>
+          <div class="done__item">
+            <p class="done__digit">980</p>
+            <p class="done__subtitle">Project</p>
           </div>
-
-          <div class="successes__item">
-            <p class="sucсesses__digit">980</p>
-            <p class="successes__subtitle">Project</p>
+          <svg class="done__line" width="218" height="96">
+            <use xlink:href="#line-1"></use>
+          </svg>
+          <div class="done__item">
+            <p class="done__digit">520</p>
+            <p class="done__subtitle">Happy Client</p>
           </div>
-
-          <div class="successes__item">
-            <p class="sucсesses__digit">980</p>
-            <p class="successes__subtitle">Project</p>
+          <svg class="done__line" width="218" height="96">
+            <use xlink:href="#line-2"></use>
+          </svg>
+          <div class="done__item">
+            <p class="done__digit">330</p>
+            <p class="done__subtitle">Winners</p>
           </div>
+          <svg class="done__line" width="218" height="96">
+            <use xlink:href="#line-1"></use>
+          </svg>
+          <div class="done__item">
+            <p class="done__digit">120</p>
+            <p class="done__subtitle">Recoment</p>
+          </div>
+        </div>
+        <svg class="done__background-dots" width="213" height="154">
+          <use xlink:href="#dots"></use>
+        </svg>
+      </div>
+    </section>
 
-          <div class="successes__item">
-            <p class="sucсesses__digit">980</p>
-            <p class="successes__subtitle">Project</p>
-          </div> -->
+    <section class="reviews">
+      <div class="container reviews__container">
+        <h4 class="reviews__subtitle">TESTIMONIALS</h4>
+        <h2 class="reviews__title">Client says about us</h2>
+        <div class="reviews__content">
+          <div class="reviews__buttons">
+            <div class="switcher">
+              <button class="switcher__prev">
+                <svg class="switcher__arrow-left" width="7" height="12">
+                  <use xlink:href="#arrow-left"></use>
+                </svg>
+              </button>
+              <button class="switcher__next">
+                <svg class="switcher__arrow-right" width="7" height="12">
+                  <use xlink:href="#arrow-right"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="reviews__card">
+            <img class="reviews__img" src="./image/person-1.png" alt="person"/>
+            <svg class="reviews__quote" width="33" height="32">
+              <use xlink:href="#quote"></use>
+            </svg>
+            <p class="reviews__subtitle"><span class="reviews__name">Louis Saville</span> /CEO at Google inc</p>
+            <div class="reviews__text">Lorem ipsum dolor sit amet, consectetur adipiscing 
+              elit, sed do eiusmod tempor incididunt ut labore
+              et dolore magna aliqua.</div>
+          </div>
+          <div class="reviews__card">
+            <img class="reviews__img" src="./image/person-2.png" alt="person"/>
+            <svg class="reviews__quote" width="33" height="32">
+              <use xlink:href="#quote"></use>
+            </svg>
+            <p class="reviews__subtitle"><span class="reviews__name">Rekha Varadwaz</span> /Manager at Nike inc</p>
+            <div class="reviews__text">Lorem ipsum dolor sit amet, consectetur adipiscing 
+              elit, sed do eiusmod tempor incididunt ut labore
+              et dolore magna aliqua.</div>
+          </div>
         </div>
       </div>
     </section>
 
+    <section class="news">
+      <div class="container news__container">
+        <h4 class="news__subtitle">LETEST NEWS</h4>
+        <h2 class="news__title">From Our Blog</h2>
+        <div class="news__content">
+          <div class="news__item">
+            <div class="news__img-container">
+              <div class="news__border"></div>
+              <img class="news__img" src="./image/news-1.png" alt="interior">
+            </div>
+            <div class="news__item-subtitle">2020 Interior Design Trends</div>
+            <p class="news__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            incididunt ut labore et dolore magna aliqua.</p>
+            <button class="button">CONTINUE READING....</button>
+          </div>
+          <div class="news__item">
+            <div class="news__img-container">
+              <div class="news__border"></div>
+              <img class="news__img" src="./image/news-2.png" alt="interior">
+            </div>
+            <div class="news__item-subtitle">2020 Interior Design Trends</div>
+            <p class="news__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            incididunt ut labore et dolore magna aliqua.</p>
+            <button class="button">CONTINUE READING....</button>
+          </div>
+        </div>
+        <svg class="news__background-dots" width="213" height="154">
+          <use xlink:href="#dots"></use>
+        </svg>
+      </div>
+    </section>
+
+    <section class="sign-up">
+      <div class="container sign-up__container">
+        <h2 class="sign-up__title">DON’T FORGET TO SIGN UP</h2>
+        <p class="sign-up__text">Find out early about all upcoming promotions and new product releases with
+          our newsletter.</p>
+        <form action="POST" class="sign-up__form">
+          <input class="sign-up__input" type="email" placeholder="Enter your email address.....">
+          <button class=" sign-up__button">SUBSCRIBE</button>
+        </form>
+        <svg class="sign-up__background-dots" width="213" height="154">
+          <use xlink:href="#dots"></use>
+        </svg>
+      </div>
+    </section>
   </main>
+  <footer class="footer">
+    <div class="footer__container container">
+      <div class="footer__top">
+        <div class="footer__logo-line">
+          <img class="footer__logo" src="./image/logo.png" alt="logo">
+          <p class="footer__logo-text">But i must explain to you all this mistaken
+            idea of dencouncing pleasure.</p>
+        </div>
+        <div class="footer-navigation">
+          <div class="footer-navigation__column">
+            <h5 class="footer-navigation__title">Quick Links</h5>
+            <ul class="footer-navigation__links">
+              <li><a href="#">About Our Company</a></li>
+              <li><a href="#">Services WE provide</a></li>
+              <li><a href="#">Career & Opportunity</a></li>
+              <li><a href="#">Privacy & policy</a></li>
+              <li><a href="#">Contact US</a></li>
+            </ul>
+          </div>
+          <div class="footer-navigation__column">
+            <h5 class="footer-navigation__title">Company</h5>
+            <ul class="footer-navigation__links">
+              <li><a href="#">About Company</a></li>
+              <li><a href="#">Our Testimonials</a></li>
+              <li><a href="#">Latest News</a></li>
+              <li><a href="#">Our mission</a></li>
+              <li><a href="#">Get a free Quit</a></li>
+            </ul>
+          </div>
+          <div class="footer-navigation__column">
+            <h5 class="footer-navigation__title">Contact us</h5>
+            <ul class="footer-navigation__links">
+              <li><a href="#">Sagrada Familia, Herba</a></li>
+              <li><a href="#">Street Front USA</a></li>
+              <li><a href="#">brandoxide@gmail.com</a></li>
+              <li><a href="#">002-568423591</a></li>  
+            </ul>
+          </div>  
+        </div>
+        <div class="footer-links">
+          <h5 class="footer-links__title">Follow Us</h5>
+          <ul class="footer-links__list">
+            <li class="footer-links__item"><a href="#">
+              <img class="footer-links__icon" src="./image/facebook.png" alt="logo-facebook">
+            </a></li>
+            <li class="footer-links__item"><a href="#">
+              <img class="footer-links__icon" src="./image/twitter.png" alt="logo-twitter">
+            </a></li>
+            <li class="footer-links__item"><a href="#">
+              <img class="footer-links__icon" src="./image/instagram.png" alt="logo-instagram">
+            </a></li>
+            <li class="footer-links__item"><a href="#">
+              <img class="footer-links__icon" src="./image/linkedin.png" alt="logo-linkedin">
+            </a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__policy">Copyright @ 2020 Brandoxide.all right reserved.</p>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
