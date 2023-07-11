@@ -1,18 +1,25 @@
 .welcome {
    padding: 100px 0px 100px;
-   position: relative;
    height: 735px;
 
    &__container {
     display: flex;
     justify-content: space-between;
+    position: relative;
+
+    >.welcome__background-dots {
+      position: absolute;
+      bottom: -90px;
+      left: -250px;
+      overflow: hidden;
+    }
    }
 
    &__left-column {
     display: flex;
     flex-direction: column;
     max-width: 603px;
-    margin-right: 44px;
+    margin: 100px 44px 0 0;
 
     >button {
       width: 142px;
@@ -46,18 +53,12 @@
       border: 1px solid $color-border;
       width: 717px;
       height: 626px;
-      border-radius: 0px 0px 140px 0px;
+      border-radius: 140px 0px 140px 0px;
    }
 
    &__img {
     width: 717px;
     height: 626px;
     border-radius: 140px 0 140px 0;
-   }
-
-   &__background-dots {
-      position: absolute;
-      bottom: -50px;
-      left: 0;
    }
 }

@@ -1,0 +1,63 @@
+.reviews {
+  padding: 163px 0 183px;
+  overflow: hidden;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title {
+    padding-bottom: 100px;
+  }
+
+  &__subtitle {
+
+  }
+
+  &__content {
+    display: flex;
+    column-gap: 140px;
+    position: relative;
+
+  }
+
+  &__card {
+    position: relative;
+    width: 551px;
+    height: 226px;
+    padding: 41px 38px 60px 100px;
+    border-radius: 70px 0px;
+    background: #FFF;
+    box-shadow: 7px 7px 30px 5px rgba(66, 96, 84, 0.15);
+
+  }
+
+  &__img {
+    position: absolute;
+    border-radius: 35px 0 35px 0;
+    top: 44px;
+    left: -61px;
+  }
+
+  &__quote {
+    position: absolute;
+    top: 15px;
+    right: 34px;
+  }
+
+  &__subtitle {
+    padding-bottom: 8px;
+  }
+
+  &__name {
+    @include font($size: 24px, $weight: 700);
+  }
+
+  &__buttons {
+    position: absolute;
+    top: -115px;
+    right: 0;
+  }
+}

@@ -7,6 +7,7 @@
 @import "base/base";
 @import "base/fonts";
 @import "base/buttons";
+@import "base/switcher";
 
 // ---LAYOUTS---
 @import "layouts/header";
@@ -15,3 +16,9 @@
 @import "components/navigation";
 @import "components/welcome";
 @import "components/service";
+@import "components/about";
+@import "components/experience";
+@import "components/done";
+@import "components/reviews";
+
+

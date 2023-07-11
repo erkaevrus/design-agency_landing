@@ -1,0 +1,25 @@
+.switcher {
+  display: flex;
+  justify-content: space-between;
+  width: 78px;
+  
+
+  >button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+  }
+
+  &__prev {
+    background: $color-light;
+    box-shadow: -1px 3px 10px 0px rgba(0, 0, 0, 0.30);
+    cursor: pointer;
+  }
+
+  &__next {
+    background: $color-primary;
+    box-shadow: -1px 3px 10px 0px rgba(0, 0, 0, 0.30);
+    cursor: pointer;
+  }
+}

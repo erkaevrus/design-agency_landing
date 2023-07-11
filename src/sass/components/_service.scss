@@ -1,10 +1,18 @@
 .service {
-  padding: 100px 0 230px 0;
-  position: relative;
+  padding: 100px 0 180px 0;
+  overflow: hidden;
 
+  
   &__container {
     display: flex;
     flex-direction: column;
+    position: relative;
+
+    >.service__background-dots {
+      position: absolute;
+      bottom: -200px;
+      right: -220px;
+    }
   }
 
   &__title {
@@ -15,6 +23,7 @@
     display: flex;
     justify-content: space-between;
     column-gap: 35px;
+    position: relative;
   }
 
   &__card {
@@ -48,9 +57,9 @@
     }
   }
 
-  &__background-dots {
+  &__buttons {
     position: absolute;
-    bottom: 20px;
+    top: -80px;
     right: 0;
   }
 }
