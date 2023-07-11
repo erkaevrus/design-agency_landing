@@ -1,7 +1,6 @@
 .done {
   background: $color-background;
   padding-bottom: 105px;
-  overflow: hidden;
 
   &__container {
     display: flex;
@@ -12,7 +11,7 @@
 
     >.done__background-dots {
       position: absolute;
-      bottom: -220px;
+      bottom: -180px;
       left: -250px;
     }
   }

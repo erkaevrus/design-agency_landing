@@ -1,0 +1,77 @@
+.news {
+  background: $color-background;
+  padding: 93px 0 122px;
+  position: relative;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    >.news__background-dots {
+      position: absolute;
+      bottom: -80px;
+      right: 0;
+      overflow: hidden;
+    }
+  }
+
+  &__subtitle {
+    padding-bottom: 21px;
+  }
+
+  &__title {
+    padding-bottom: 82px;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 136px;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+
+    >button {
+      width: 271px;
+      height: 53px;
+      background: $color-primary;
+      color: $color-light;
+    }
+  }
+
+  &__img-container {
+    position: relative;
+    padding-bottom: 60px;
+  }
+
+  &__border {
+    position: absolute;
+    z-index: 0;
+    top: 17px;
+    left: 17px;
+    border: 1px solid $color-border;
+    width: 554px;
+    height: 386px;
+    border-radius: 100px 0px 100px 0px;
+  }
+
+  &__img {
+    z-index: 1;
+    position: relative;
+    width: 554px;
+    height: 386px;
+    border-radius: 100px 0px 100px 0px;
+  }
+
+  &__item-subtitle {
+    @include font($size: 30px, $height: 28px, $weight: 600);
+    padding-bottom: 17px;
+  }
+
+  &__text {
+    padding-bottom: 45px;
+  }
+}

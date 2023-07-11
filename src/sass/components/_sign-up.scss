@@ -1,0 +1,65 @@
+.sign-up {
+  padding: 197px 0 196px;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+    >.sign-up__background-dots {
+      position: absolute;
+      bottom: -270px;
+      left: -220px;
+    }
+  }
+
+  &__title {
+    @include font($size: 48px, $height: 28px, $weight: 500);
+    letter-spacing: 3.84px;
+    position: relative;
+    padding-bottom: 67px;
+
+    &:after {
+      content: '';
+      width: 461px;
+      height: 1px;
+      background: #C4C4C4;
+      position: absolute;
+      top: 67px;
+      right: 135px;
+    }
+  }
+
+  &__text {
+    color: $color-font-secondary;
+    max-width: 647px;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  &__form {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  &__input {
+    width: 592px;
+    height: 50px;
+    outline: none;
+    padding-left: 27px;
+    border-radius: 20px 0 0 0;
+    border: none;
+    background: $color-input;
+    font-size: 18px;
+  }
+
+  &__button {
+    width: 180px;
+    height: 50px;
+    background: $color-primary;
+    color: $color-light;
+    border: none;
+    border-radius: 0 0 20px 0;
+  }
+}
